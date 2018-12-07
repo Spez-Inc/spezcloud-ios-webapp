@@ -12,5 +12,6 @@ if (
 	standdiv.style.display = "block";
 	location.replace("https://kmu.files.cnow.at/login?redirect_url=/apps/files/");
 } else {
-    nostanddiv.style.display = "block";
+    standdiv.style.display = "block";
+	location.replace("https://kmu.files.cnow.at/login?redirect_url=/apps/files/");
 }
